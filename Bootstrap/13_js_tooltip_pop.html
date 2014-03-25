@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Titulo da Aplicação</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="container">
+	<div class="row">
+    	<div class="span12">
+        	<h1>Tooltip</h1>
+            <div class="row">
+            	<div class="well">texto texto texto texto <a href="#" rel="tooltip" title="Primeiro Link">texto texto</a> texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto <a href="#"  rel="tooltip"  title="Segundo Link">texto texto</a> texto texto texto texto texto texto texto texto texto texto <a href="#"  rel="tooltip"  title="Terceiro Link">texto texto</a> texto texto texto texto texto texto texto texto texto </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+    	<div class="span12">
+        	<h1>Popovers</h1>
+            <div class="row">
+            	<div class="well">
+                	<a href="#" class="btn btn-danger" rel="popover" title="Título do popover" data-content="este é o texto completo de nosso popover">Botão Popover</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js"></script>
+<script language="javascript">
+	
+	$(function(){
+		$("a[rel=tooltip]").tooltip();
+		$("a[rel=popover]").popover();
+	});
+	
+</script>
+</html>

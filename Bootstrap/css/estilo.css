@@ -1,0 +1,20 @@
+body { padding-top:60px; }
+
+@media (max-width: 480px) {
+	.borda_colorida { border:1px #F00 dotted; }	
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.borda_colorida { border:2px #039 solid; font-size:36px; }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.borda_colorida { border:3px #C90 double; font-weight:bold; }
+}
+
+@media (min-width: 980px) {
+	.borda_colorida { border:4px #C90 double; font-weight:bold; text-align:center; }
+}
+
+.bg_cinza { background:#CCC; }
+.bg_escuro { background:#666; }

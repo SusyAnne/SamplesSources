@@ -1,0 +1,147 @@
+/*
+body {
+	background:yellow;
+}
+*/
+
+/* aula 05 */
+
+/* seleção por tipo de elemento */
+
+p {
+	font-size:12px;
+}
+
+/* seleção por id do elemento */
+
+#paragrafo01 {
+	font-size:30px;
+}
+
+/* seleção por classe */
+
+.nome_da_classe {
+	font-size:50px;
+}
+
+/* aula 06 */
+
+.fundo_pagina {
+	background:#00FFFF;
+}
+
+.fundo_elemento {
+	background:rgba(152,152,152,1);
+}
+
+/* aula 07 imagem de fundo */
+
+html {
+	height:100%;
+}
+
+.fundo_madeira {
+	background:url("imagens/fundo.png") center center repeat-x;
+}
+
+/* aula 08 fontes */
+
+.font_pagina {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#66FF00;
+}
+
+.fonte_01 {
+	font-size:30px;
+}
+
+.fonte_02 {
+	color:#00FFFF;
+}
+
+.fonte_03 {
+	font-family:"Courier New", Courier, monospace;
+	font-size:20px;
+	color:#FF00FF;
+}
+
+/* aula 09 text */
+.aula09_espacamento {
+	letter-spacing:20px;
+}
+.aula09_wordSpacing {
+	word-spacing:40px;
+}
+.aula09_textAlign {
+	/* left, center, right, justify */
+	text-align:right;
+}
+.aula09_textDecoration {
+	/* none, underline, overline, line-through, blink */
+	text-decoration:overline;
+}
+.aula09_textIndent {
+	text-indent:10%;
+}
+.aula09_textTransform {
+	/* none, capitalize, uppercase, lowercase */
+	text-transform:uppercase;
+}
+
+/* aula 10 border */
+.aula10_border01 {
+	border:1px solid black;
+}
+
+.aula10_border02 {
+	border-style:dotted;
+	border-width:3px;
+	border-color:red;
+}
+
+.aula10_semBorda {
+	border:none;
+}
+
+.aula10_bordaInferiorSuperior {
+	border-bottom:3px dashed green;
+	border-top:5px outset red;
+}
+
+.aula10_bordaEsquerdaDireita {
+	border-right:10px solid black;
+	border-left:5px inset red;
+}
+
+/* aula 11 margin e padding */
+
+.aula11_auxiliar {
+	float:left;
+	display:block;
+	width:120px;
+	height:120px;
+}
+
+.aula11_margin01 {
+	margin:10px;
+}
+
+.aula11_margin02 {
+	margin-left:30px;
+	margin-right:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+/* o padding se soma com a altura ou a largura */
+.aula11_padding01 {
+	padding:10px;
+}
+
+.aula11_padding02 {
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:30px;
+	padding-bottom:30px;
+}

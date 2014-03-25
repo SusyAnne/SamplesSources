@@ -1,0 +1,7 @@
+Arial, Helvetica, sans-serif
+Verdana, Geneva, sans-serif 
+Georgia, "Times New Roman", Times, serif 
+"Courier New", Courier, monospace
+Tahoma, Geneva, sans-serif
+"Trebuchet MS", Arial, Helvetica, sans-serif
+"Times New Roman", Times, serif
