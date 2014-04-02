@@ -3,18 +3,19 @@ int main() {
    int i;
    i = 1;
 
-   printf("Digite um numero \n",);
 
-   while (i<10);{
+   while (i<10) {
 
     printf("%d \n", i);
     i++;
 
    }
 
+   i = 1;
+
    do {
 
-   printf("%d \n", i);
+   printf ("%d \n", i);
    i++;
 
      } while(i<10);

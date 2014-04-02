@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 int main () {
 
    int a, b, c;
@@ -15,12 +16,13 @@ int main () {
    printf("Digite o valor de C\n");
    scanf("%d", &c);
 
-   r = (a+b)^2;
-   s = (b+c)^2;
+   r = pow((a+b),2);
+   s = pow((b+c),2);
    d = (r+s)/2;
 
    printf("o resultado de D= %d", d);
 
-
+   d = (pow((a+b),2) + pow((b+c),2)) / 2;
+   printf("o resultado de D= %d", d);
 
 }

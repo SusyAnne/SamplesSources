@@ -10,13 +10,9 @@ int main () {
    media = (a+b+c)/3;
    printf("a Media do aluno e: %d\n", media);
 
-   if (media > 6) {
+   if (media >= 6)
        printf("Aprovado");
-   }
    else
-   if (media <6) {
        printf("Reprovado");
-   }
-
 
 }

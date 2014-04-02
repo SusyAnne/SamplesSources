@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main () {
    char vetor[10];
-   int  i = ;
+   int  i = 0;
 
 
     printf("Digite seu nome:\n");
@@ -11,5 +11,7 @@ int main () {
         printf("%c\n", vetor[i]);
         i ++;
     }
+
+    printf("%s", vetor);
 
 }
